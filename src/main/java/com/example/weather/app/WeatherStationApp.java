@@ -1,7 +1,7 @@
-package com.example.weather.app;
+package main.java.com.example.weather.app;
 
-import com.example.weather.display.*;
-import com.example.weather.subject.WeatherData;
+import main.java.com.example.weather.display.*;
+import main.java.com.example.weather.subject.WeatherData;
 
 public class WeatherStationApp {
 
@@ -14,10 +14,10 @@ public class WeatherStationApp {
 
         new PressureDisplay(weatherData);
 
-        //Reto
+        //reto
         new HeatIndexDisplay(weatherData);
 
-        //Sim
+        //sim
         weatherData.setMeasurements(26.0f, 65.0f, 1013.0f);
         weatherData.setMeasurements(28.5f, 70.0f, 1008.5f);
         weatherData.setMeasurements(24.2f, 90.0f, 1016.2f);
